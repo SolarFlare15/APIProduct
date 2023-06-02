@@ -16,7 +16,7 @@ const products = [
   ];
   
 
-//endpoint de la page titre
+//Endpoint de la page titre
 
 app.get('/', (req, res) => {
     return res.send('<html><head><title>Page Title</title></head><body>Voici la page principale</body></html>');
